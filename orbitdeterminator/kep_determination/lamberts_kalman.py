@@ -32,16 +32,29 @@ def orbit_trajectory(x1_new, x2_new, time):
     v1 = l.get_v1()
     v1 = np.asarray(v1)
     v1 = np.reshape(v1, 3)
-    x1_new = np.asarray(x1_new)
 
-    kep1 = state_kep.state_kep(x1_new, v1)
+    l_true = pkp.lambert_problem(x1_new, x2_new, time, 398600.4405, True)
 
-    if kep1[0] < 0.0:
-        traj = True
-    elif kep1[1] > 1.0:
-        traj = True
-    else:
+    v1_true = l_true.get_v1()
+    v1_true = np.asarray(v1_true)
+    v1_true = np.reshape(v1_true, 3)
+
+    if np.all(np.absolute(v1_true) > np.absolute(v1)):
         traj = False
+    else:
+        traj = True
+
+
+    # x1_new = np.asarray(x1_new)
+    #
+    # kep1 = state_kep.state_kep(x1_new, v1)
+    #
+    # if kep1[0] < 0.0:
+    #     traj = True
+    # elif kep1[1] > 1.0:
+    #     traj = True
+    # else:
+    #     traj = False
 
     return traj
 
