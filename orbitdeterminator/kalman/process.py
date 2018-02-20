@@ -35,6 +35,7 @@ for i in range(0, 5):
 print(process_value[0,0:5])
 
 
+
 ##Ayth h orbit mallon einai xwris 80rybo
 
 
