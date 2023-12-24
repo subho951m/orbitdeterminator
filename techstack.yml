@@ -1,0 +1,216 @@
+repo_name: subho951m/orbitdeterminator
+report_id: b54bd9501b658096a13a87d6add05c53
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-24T08:29:25+00:00'
+requested_by: hornig
+provider: github
+branch: master
+detected_tools_count: 16
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source: requirements.txt
+  last_updated_by: Nilesh Chaturvedi
+  last_updated_on: 2020-10-08 22:26:28.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: requirements.txt
+  last_updated_by: Nilesh Chaturvedi
+  last_updated_on: 2019-07-15 23:03:33.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: nilesh4145
+  last_updated_on: 2017-05-24 13:49:27.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nilesh Chaturvedi
+  last_updated_on: 2020-10-08 22:26:28.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source: Repo Metadata
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.17.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nilesh Chaturvedi
+  last_updated_on: 2019-07-15 23:03:33.000000000 Z
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nilesh Chaturvedi
+  last_updated_on: 2019-07-15 23:03:33.000000000 Z
+- name: astropy
+  description: Community-developed python astronomy tools
+  package_url: https://pypi.org/project/astropy
+  version: 3.0.3
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20016/default_70556f9333e0a39c148cac0c36ca24235943f270.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Subhayu Kumar Bala
+  last_updated_on: 2021-03-13 09:59:56.000000000 Z
+- name: emcee
+  description: The Python ensemble sampling toolkit for MCMC
+  package_url: https://pypi.org/project/emcee
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source: requirements.txt
+  last_updated_by: hornig
+  last_updated_on: 2021-05-12 07:28:41.000000000 Z
+- name: inquirer
+  description: Collection of common interactive command line user interfaces
+  package_url: https://pypi.org/project/inquirer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20709/default_3275977d966f697dfd31303c8596879bc8abff5d.png
+  detection_source: requirements.txt
+  last_updated_by: hornig
+  last_updated_on: 2021-03-13 22:38:06.000000000 Z
+- name: py
+  description: Library with cross-python path
+  package_url: https://pypi.org/project/py
+  version: 1.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19962/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Nilesh Chaturvedi
+  last_updated_on: 2019-07-15 23:03:33.000000000 Z
+  vulnerabilities:
+  - name: 'ReDoS in py library when used with subversion '
+    cve_id: CVE-2022-42969
+    cve_url: https://github.com/advisories/GHSA-w596-4wvx-j9j6
+    detected_date: Oct 18
+    severity: high
+    first_patched: 
+  - name: py vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2020-29651
+    cve_url: https://github.com/advisories/GHSA-hj5v-574p-mj7c
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.0
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source: requirements.txt
+  last_updated_by: hornig
+  last_updated_on: 2021-03-13 22:38:06.000000000 Z
+- name: skyfield
+  description: Elegant astronomy for Python
+  package_url: https://pypi.org/project/skyfield
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source: requirements.txt
+  last_updated_by: hornig
+  last_updated_on: 2021-05-12 07:28:41.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source: requirements.txt
+  last_updated_by: hornig
+  last_updated_on: 2021-05-12 08:04:59.000000000 Z
