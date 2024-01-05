@@ -2,7 +2,7 @@ repo_name: subho951m/orbitdeterminator
 report_id: b54bd9501b658096a13a87d6add05c53
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-24T08:29:25+00:00'
+timestamp: '2024-01-05T08:16:24+00:00'
 requested_by: hornig
 provider: github
 branch: master
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator
   detection_source: Repo Metadata
 - name: Matplotlib
   description: A plotting library for the Python programming language
@@ -26,6 +27,7 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nilesh Chaturvedi
   last_updated_on: 2020-10-08 22:26:28.000000000 Z
@@ -37,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -46,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Nilesh Chaturvedi
   last_updated_on: 2019-07-15 23:03:33.000000000 Z
@@ -58,6 +62,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: nilesh4145
   last_updated_on: 2017-05-24 13:49:27.000000000 Z
@@ -84,6 +89,7 @@ tools:
   category: Application Utilities
   sub_category: Data Science Notebooks
   image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/subho951m/orbitdeterminator
   detection_source: Repo Metadata
 - name: NumPy
   description: Fundamental package for scientific computing with Python
@@ -136,6 +142,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: hornig
   last_updated_on: 2021-05-12 07:28:41.000000000 Z
@@ -148,6 +155,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20709/default_3275977d966f697dfd31303c8596879bc8abff5d.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: hornig
   last_updated_on: 2021-03-13 22:38:06.000000000 Z
@@ -187,6 +195,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: hornig
   last_updated_on: 2021-03-13 22:38:06.000000000 Z
@@ -199,6 +208,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: hornig
   last_updated_on: 2021-05-12 07:28:41.000000000 Z
@@ -211,6 +221,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/subho951m/orbitdeterminator/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: hornig
   last_updated_on: 2021-05-12 08:04:59.000000000 Z
